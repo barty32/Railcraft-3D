@@ -71,7 +71,7 @@ It also fixes problems with Z-fighting where rail ends overlap.
 
 ## How to install
 
-Download the latest ZIP file with the resource pack in [Releases](releases)
+Download the latest ZIP file with the resource pack in [Releases](https://github.com/barty32/Railcraft-3D/releases/latest)
 and move it to your `.minecraft/resourcepacks` folder (see [Instructions](Instructions.txt)).
 
 You can also clone this repository and make the archive using 
