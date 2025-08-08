@@ -9,6 +9,75 @@ Currently supported Minecraft versions:
 
 1.16+ Vanilla only, there are many bugs with this pack in Railcraft betas for these versions
 
+## Improvements in this fork
+
+### Fancy turns and junctions
+
+Turns and junctions have been rebuilt with angled pieces so they look much smoother, 
+but still Minecraft enough.
+
+![turns](showcase/turns.png)
+![junctions](showcase/junctions.png)
+
+### More realistic slopes with support frame
+
+Slopes now have a support construction, so they are not levitating in the air anymore.
+Both ends of the slope smoothly connect to the ongoing rail.
+
+![slopes](showcase/slopes.png)
+![slope detail](showcase/slope_detail.png)
+
+### 3D force track emitter tracks
+
+Unfortunately the tracks are not transparent, because it would need to be enabled in the Railcraft code.
+
+![force track](showcase/force_track.png)
+![force track 2](showcase/force_track2.png)
+
+
+### Rusty abandoned tracks
+
+Abandoned tracks got a new rusty color and their wooden ties are covered with moss.
+The grass color has been fixed.
+
+![abandoned](showcase/abandoned.png)
+
+### Fixed UV map bleeding
+
+UV bleeding was fixed by reducing UV map sizes a tiny bit.
+
+![uv1](showcase/uv1.png)
+![uv2](showcase/uv2.png)
+
+### Turned off ambient occlusion because it is buggy
+
+Ambient occlusion is now disabled on all track models.
+It also fixes problems with Z-fighting where rail ends overlap. 
+
+![occlusion](showcase/occlusion.png)
+
+### Fixed many visual glitches
+
+![glitches1](showcase/glitches1.png)
+![glitches2](showcase/glitches2.png)
+![bottom](showcase/bottom.png)
+
+## Showcase
+
+![showcase1](showcase/showcase1.png)
+![showcase2](showcase/showcase2.png)
+![showcase3](showcase/showcase3.png)
+![showcase4](showcase/showcase4.png)
+
+## How to install
+
+Download the latest ZIP file with the resource pack in [Releases](releases)
+and move it to your `.minecraft/resourcepacks` folder (see [Instructions](Instructions.txt)).
+
+You can also clone this repository and make the archive using 
+`zip railcraft-3d -r -q assets pack.mcmeta pack.png Instructions.txt` 
+command.
+
 ## What is Railcraft?
 
 Railcraft is a mod written for the hit game [Minecraft](https://minecraft.net/). It is built on top of the [Minecraft Forge](https://github.com/MinecraftForge) API.
