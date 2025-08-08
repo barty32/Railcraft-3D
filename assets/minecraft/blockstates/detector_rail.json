@@ -1,0 +1,63 @@
+{
+	"forge_marker": 1,
+	"defaults": {
+		"model": "detector_rail_flat",
+		"textures": {
+			"rail": "blocks/rail_detector",
+			"rail_bottom": "blocks/rail_normal_turned",
+			"support": "blocks/planks_oak"
+		},
+		"transform": "forge:default-block"
+	},
+	"variants": {
+		"powered": {
+			"false": {},
+			"true": {
+				"textures": {
+					"rail": "blocks/rail_detector_powered"
+				},
+				"model": "detector_rail_powered_flat"
+			}
+		},
+		"shape": {
+			"north_south": {},
+			"east_west": {"y": 90},
+			"ascending_north": {
+				"model": "detector_rail_raised"
+			},
+			"ascending_east": {
+				"model": "detector_rail_raised", "y": 90
+			},
+			"ascending_south": {
+				"model": "detector_rail_raised_mirrored"
+			},
+			"ascending_west": {
+				"model": "detector_rail_raised_mirrored", "y": 90
+			}
+		},
+		"powered=true,shape=ascending_north": {
+			"model": "detector_rail_powered_raised",
+			"textures": {
+				"rail": "blocks/rail_detector_powered"
+			}
+		},
+		"powered=true,shape=ascending_east": {
+			"model": "detector_rail_powered_raised", "y": 90,
+			"textures": {
+				"rail": "blocks/rail_detector_powered"
+			}
+		},
+		"powered=true,shape=ascending_south": {
+			"model": "detector_rail_powered_raised_mirrored",
+			"textures": {
+				"rail": "blocks/rail_detector_powered"
+			}
+		},
+		"powered=true,shape=ascending_west": {
+			"model": "detector_rail_powered_raised_mirrored", "y": 90,
+			"textures": {
+				"rail": "blocks/rail_detector_powered"
+			}
+		}
+	}
+}

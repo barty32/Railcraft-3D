@@ -1,0 +1,44 @@
+{
+	"credit": "Made by barty12 with Blockbench",
+	"ambientocclusion": false,
+	"textures": {
+		"1": "#rail",
+		"particle": "#rail"
+	},
+	"elements": [
+		{
+			"name": "RS",
+			"from": [5, 4.5, 8.14541],
+			"to": [11, 5.8, 14.14541],
+			"rotation": {"angle": 45, "axis": "x", "origin": [4, 12.41475, 14.04541]},
+			"faces": {
+				"north": {"uv": [5.032, 5.032, 10.968, 5.968], "rotation": 180, "texture": "#1"},
+				"east": {"uv": [10.032, 5.032, 10.968, 10.968], "rotation": 90, "texture": "#1"},
+				"south": {"uv": [5.032, 10.032, 10.968, 10.968], "texture": "#1"},
+				"west": {"uv": [5.032, 5.032, 5.968, 10.968], "rotation": 270, "texture": "#1"},
+				"up": {"uv": [5.032, 5.032, 10.968, 10.968], "texture": "#1"},
+				"down": {"uv": [5.032, 5.032, 10.968, 10.968], "rotation": 180, "texture": "#1"}
+			}
+		},
+		{
+			"name": "Plate",
+			"from": [6, 4.1, 8.8835],
+			"to": [10, 5.4, 12.8835],
+			"rotation": {"angle": 45, "axis": "x", "origin": [6, 11.69721, 14.8835]},
+			"faces": {
+				"north": {"uv": [6.032, 6.032, 9.968, 6.968], "rotation": 180, "texture": "#1"},
+				"east": {"uv": [9.032, 6.032, 9.968, 9.968], "rotation": 90, "texture": "#1"},
+				"south": {"uv": [6.032, 9.032, 9.968, 9.968], "texture": "#1"},
+				"west": {"uv": [6.032, 6.032, 6.968, 9.968], "rotation": 270, "texture": "#1"},
+				"up": {"uv": [6.032, 6.032, 9.968, 9.968], "texture": "#1"},
+				"down": {"uv": [6.032, 6.032, 9.968, 11.7], "rotation": 180, "texture": "#1"}
+			}
+		}
+	],
+	"display": {
+		"thirdperson_righthand": {
+			"translation": [-0.5, 0, 0],
+			"scale": [1, 0, 0]
+		}
+	}
+}

@@ -1,0 +1,39 @@
+{
+	"forge_marker": 1,
+	"defaults": {
+		"model": "activator_rail_flat",
+		"textures": {
+			"rail": "blocks/rail_activator",
+			"rail_bottom": "blocks/railbed_redstone",
+			"support": "blocks/planks_oak"
+		},
+		"transform": "forge:default-block"
+	},
+	"variants": {
+		"powered": {
+			"false": {},
+			"true": {
+				"textures": {
+					"rail": "blocks/rail_activator_powered",
+					"rail_bottom": "blocks/railbed_redstone_powered"
+				}
+			}
+		},
+		"shape": {
+			"north_south": {},
+			"east_west": {"y": 90},
+			"ascending_north": {
+				"model": "activator_rail_raised"
+			},
+			"ascending_east": {
+				"model": "activator_rail_raised", "y": 90
+			},
+			"ascending_south": {
+				"model": "activator_rail_raised_mirrored"
+			},
+			"ascending_west": {
+				"model": "activator_rail_raised_mirrored", "y": 90
+			}
+		}
+	}
+}
