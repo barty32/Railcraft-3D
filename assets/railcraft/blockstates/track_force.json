@@ -1,0 +1,16 @@
+{
+	"forge_marker": 1,
+	"defaults": {
+		"model": "railcraft:track_force",
+		"textures": {
+			"rail": "railcraft:blocks/tracks/track_force"
+		},
+		"transform": "forge:default-block"
+	},
+	"variants": {
+		"shape": {
+			"north_south": {},
+			"east_west": {"y": 90}
+		}
+	}
+}

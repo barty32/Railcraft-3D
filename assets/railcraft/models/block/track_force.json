@@ -1,0 +1,66 @@
+{
+	"credit": "Made by barty12 with Blockbench",
+	"ambientocclusion": false,
+	"textures": {
+		"1": "#rail",
+		"particle": "#rail"
+	},
+	"elements": [
+		{
+			"name": "Outer Left",
+			"from": [2, 1, 0],
+			"to": [3, 2, 16],
+			"rotation": {"angle": 0, "axis": "y", "origin": [10, 8, 6]},
+			"faces": {
+				"north": {"uv": [2.032, 0.032, 2.968, 0.968], "texture": "#1", "tintindex": 0},
+				"east": {"uv": [2.064, 0.032, 2.968, 15.968], "rotation": 90, "texture": "#1", "tintindex": 0},
+				"south": {"uv": [2.032, 15.032, 2.968, 15.968], "texture": "#1", "tintindex": 0},
+				"west": {"uv": [2.064, 0.032, 2.968, 15.968], "rotation": 270, "texture": "#1", "tintindex": 0},
+				"up": {"uv": [2.064, 0.032, 2.968, 15.968], "texture": "#1", "tintindex": 0},
+				"down": {"uv": [2.064, 0.032, 2.968, 15.968], "rotation": 180, "texture": "#1", "tintindex": 0}
+			}
+		},
+		{
+			"name": "Inner Left",
+			"from": [3, 1, 0],
+			"to": [4, 3, 16],
+			"rotation": {"angle": 0, "axis": "y", "origin": [11, 8, 5]},
+			"faces": {
+				"north": {"uv": [3.032, 0.032, 3.968, 0.968], "texture": "#1", "tintindex": 0},
+				"east": {"uv": [3.064, 0.032, 3.968, 15.968], "rotation": 90, "texture": "#1", "tintindex": 0},
+				"south": {"uv": [3.032, 15.032, 3.968, 15.968], "texture": "#1", "tintindex": 0},
+				"west": {"uv": [3.064, 15.968, 3.968, 0.032], "rotation": 90, "texture": "#1", "tintindex": 0},
+				"up": {"uv": [3.032, 0.032, 3.968, 15.968], "texture": "#1", "tintindex": 0},
+				"down": {"uv": [3.032, 15.968, 3.968, 0.032], "texture": "#1", "tintindex": 0}
+			}
+		},
+		{
+			"name": "Outer Right",
+			"from": [13, 1, 0],
+			"to": [14, 2, 16],
+			"rotation": {"angle": 0, "axis": "y", "origin": [21, 8, -5]},
+			"faces": {
+				"north": {"uv": [13.032, 0.032, 13.968, 0.968], "texture": "#1", "tintindex": 0},
+				"east": {"uv": [13.064, 0.032, 13.968, 15.968], "rotation": 90, "texture": "#1", "tintindex": 0},
+				"south": {"uv": [13.064, 15.032, 13.968, 15.968], "texture": "#1", "tintindex": 0},
+				"west": {"uv": [13.064, 0.032, 13.968, 15.968], "rotation": 270, "texture": "#1", "tintindex": 0},
+				"up": {"uv": [13.064, 0.032, 13.968, 15.968], "texture": "#1", "tintindex": 0},
+				"down": {"uv": [13.064, 0.032, 13.968, 15.968], "rotation": 180, "texture": "#1", "tintindex": 0}
+			}
+		},
+		{
+			"name": "Inner Right",
+			"from": [12, 1, 0],
+			"to": [13, 3, 16],
+			"rotation": {"angle": 0, "axis": "y", "origin": [20, 8, -4]},
+			"faces": {
+				"north": {"uv": [12.032, 0.032, 12.968, 0.968], "texture": "#1", "tintindex": 0},
+				"east": {"uv": [12.064, 0.032, 12.968, 15.968], "rotation": 90, "texture": "#1", "tintindex": 0},
+				"south": {"uv": [12.032, 15.032, 12.968, 15.968], "texture": "#1", "tintindex": 0},
+				"west": {"uv": [12.032, 0.032, 12.968, 15.968], "rotation": 270, "texture": "#1", "tintindex": 0},
+				"up": {"uv": [12.032, 0.032, 12.968, 15.968], "texture": "#1", "tintindex": 0},
+				"down": {"uv": [12.064, 0.032, 12.968, 15.968], "rotation": 180, "texture": "#1", "tintindex": 0}
+			}
+		}
+	]
+}
